@@ -14,7 +14,7 @@ services:
 
   cmr:
     build: ./cmr
-    image: inspectit_platform/cmr
+    image: dukecon/inspectit_cmr
     container_name: inspectit_cmr
     restart: always
     volumes:
